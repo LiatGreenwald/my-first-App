@@ -8,20 +8,24 @@
 }
 
 .App>.Header{
-  background-color: blue;
+  background-color: #212121;
   grid-column: 12 span;
   grid-row: 1 span;
 }
 .App>.Menu{
+  background-color: #323232;
   grid-column: 2 span;
   grid-row: 10 span;
 }
 .App>.Main2{
+  background-color: #22696c;
   grid-column: 10 span;
   grid-row: 10 span;
 }
 .App>.Footer{
+  background-color: #14FFEC;
   grid-column: 12 span;
   grid-row: 1 span;
 }
+
 

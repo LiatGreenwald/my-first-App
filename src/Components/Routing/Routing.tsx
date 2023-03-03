@@ -3,6 +3,8 @@ import App from "../../App";
 import Home from "../Home/Home";
 import Main2 from "../Main2/Main2";
 import Page404 from "../Page404/Page404";
+import School from "../School/School";
+import Teacherlist from "../Teacherlist/Teacherlist";
 import "./Routing.css";
 
 function Routing(): JSX.Element {
@@ -12,7 +14,8 @@ function Routing(): JSX.Element {
         <Route path="/" element={<App />} />
         <Route index element={<Home />} />
         <Route path="home" element={<Home />} />
-        <Route path="main2" element={<Main2 />} />
+        <Route path="teacher" element={<Teacherlist/>} />
+        <Route path="school" element={<School/>} />
         <Route path="*" element={<Page404 />} />
       </Routes>
     </div>

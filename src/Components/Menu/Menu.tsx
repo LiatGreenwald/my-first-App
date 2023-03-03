@@ -7,11 +7,11 @@ function Menu(): JSX.Element {
             <h2>Programming Courses</h2>
             <h4>Tuesday 9:00-16:30</h4>
             <h4>Friday 9:00-13:15</h4>
-			<Link to="Home">Home</Link>
+			<Link to="home">Home</Link>
             <br/>
-        <Link to="Teacher">Teachers</Link>
+        <Link to="teacher">Teachers</Link>
         <br/>
-        <Link to="School">John Bryce</Link>
+        <Link to="school">John Bryce</Link>
         </div>
     );
 }

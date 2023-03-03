@@ -3,10 +3,11 @@
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    background-color: rgb(223, 16, 16);
     color: rgb(7, 7, 7);
     width: 100%;
     overflow-y: auto;
+    height: 100%;
+    width: 100%;
     
 }
 

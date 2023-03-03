@@ -7,9 +7,7 @@ import { Outlet } from "react-router-dom";
 function Main2(): JSX.Element {
   return (
     <div className="Main2">
-      { <><School street={"Homa VeMigdal"} houseNumber={29} city={"Tel Aviv"} zip={6777129} phone={"*6444"} /></> 
-                 }
-      <Routing />
+       <Routing />
       <Outlet />
     </div>
   );
