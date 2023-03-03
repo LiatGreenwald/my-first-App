@@ -1,0 +1,13 @@
+.Main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    background-color:rgb(240, 245, 248);
+    color: rgb(12, 1, 1);
+    width: 100%;
+   overflow-y: auto;
+    
+}

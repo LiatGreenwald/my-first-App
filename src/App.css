@@ -1,0 +1,27 @@
+.App {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: repeat(12,1fr);
+ 
+}
+
+.App>.Header{
+  background-color: blue;
+  grid-column: 12 span;
+  grid-row: 1 span;
+}
+.App>.Menu{
+  grid-column: 2 span;
+  grid-row: 10 span;
+}
+.App>.Main2{
+  grid-column: 10 span;
+  grid-row: 10 span;
+}
+.App>.Footer{
+  grid-column: 12 span;
+  grid-row: 1 span;
+}
+

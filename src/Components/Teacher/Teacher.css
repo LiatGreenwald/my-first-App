@@ -1,0 +1,14 @@
+.Teacher {
+	background-color: rgb(250, 4, 4);
+    color: black;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 2px solid rgb(0, 0, 10);
+}
+.fontWeight900{
+    font-weight: 900;
+}
