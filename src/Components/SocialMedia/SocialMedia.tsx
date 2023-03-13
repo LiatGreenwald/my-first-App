@@ -1,16 +1,25 @@
 import "./SocialMedia.css";
 
-import { FaTwitter, FaWaze,FaLinkedinIn} from "react-icons/fa";
+import { FaTwitter, FaWaze,FaLinkedinIn, FaFacebook} from "react-icons/fa";
 
-function SocialMedia(): JSX.Element {
+interface SocialMediaProps{
+    facebook:boolean;
+    twitter:boolean;
+    waze:boolean;
+    linkedin:boolean;
+
+}
+function SocialMedia(props:SocialMediaProps): JSX.Element {
     return (
         <div className="SocialMedia">
-			<FaTwitter size={28}/>
-            <FaWaze size={28}/>
-            <FaLinkedinIn size={28}/>
+			<a href="https://twitter.com/clalithealth?lang=en">{props.twitter && <FaTwitter size={28}/>}</a>
+            <a href="https://www.waze.com/live-map/">{props.waze && <FaWaze size={28}/>}</a>
+            <a href="https://www.linkedin.com/home">{props.linkedin && <FaLinkedinIn size={28}/>}</a>
+            {props.facebook && <FaFacebook size={28}/>}
 
-        </div>
+       </div>
     );
-}
+ 
+ }
 
 export default SocialMedia;

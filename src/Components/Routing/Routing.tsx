@@ -15,7 +15,7 @@ function Routing(): JSX.Element {
         <Route index element={<Home />} />
         <Route path="home" element={<Home />} />
         <Route path="teacher" element={<Teacherlist/>} />
-        <Route path="school" element={<School/>} />
+        <Route path="school" element={ <School    />} />
         <Route path="*" element={<Page404 />} />
       </Routes>
     </div>
